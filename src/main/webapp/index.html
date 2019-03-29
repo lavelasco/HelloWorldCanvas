@@ -27,8 +27,13 @@ POSSIBILITY OF SUCH DAMAGE.
 <html>
     <head>
         <title>Force.com Canvas Java Quick Start</title>
-        <script type="text/javascript" src="/scripts/pdfjs/build/pdf.js"></script>
-        <script type="text/javascript" src="/scripts/parser.js"></script>
+        <script type="text/javascript" src="/src/main/webapp/scripts/pdfjs/build/pdf.js"></script>
+        <script type="text/javascript" src="/src/main/webapp/scripts/parser.js"></script>
+        <script>
+            function process() {
+                getFile();
+            }
+        </script>
         <style type="text/css" media="screen">
 body {
     margin: 0;
@@ -134,7 +139,7 @@ h1 {
             <h2>PDF Parsing Round 1</h2>
             <br/>
             <form>
-                Select a file: <input type="file" name="pdf-insert"/> <button type="button">Upload</button> 
+                Select a file: <input id="pdf-insert" type="file" name="pdf-insert"/> <button id="uploadButton" type="button" onclick="process()">Upload</button> 
             </form>
             <br/>
             <p name="output"></p>
