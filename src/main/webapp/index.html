@@ -27,7 +27,8 @@ POSSIBILITY OF SUCH DAMAGE.
 <html>
     <head>
         <title>Force.com Canvas Java Quick Start</title>
-        <!-- <script src="scripts/pdfjs/build/pdf.js"/> -->
+        <script type="text/javascript" src="/scripts/pdfjs/build/pdf.js"></script>
+        <script type="text/javascript" src="/scripts/parser.js"></script>
         <style type="text/css" media="screen">
 body {
     margin: 0;
@@ -135,6 +136,8 @@ h1 {
             <form>
                 Select a file: <input type="file" name="pdf-insert"/> <button type="button">Upload</button> 
             </form>
+            <br/>
+            <p name="output"></p>
           </div>
         </div>
       `
