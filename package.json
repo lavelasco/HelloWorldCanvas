@@ -18,5 +18,8 @@
   "homepage": "https://github.com/lavelasco/HelloWorldCanvas#readme",
   "dependencies": {
     "pdf-to-text": "0.0.7"
+  },
+  "engines": {
+    "node": "8.11.3"
   }
 }
