@@ -31,7 +31,9 @@ POSSIBILITY OF SUCH DAMAGE.
         <script type="text/javascript" src="/src/main/webapp/scripts/parser.js"></script>
         <script>
             function process() {
-                getFile();
+                //getFile();
+                var uploadedFile = document.getElementById('pdf-insert');
+                alert(uploadedFile.value);
             }
         </script>
         <style type="text/css" media="screen">
