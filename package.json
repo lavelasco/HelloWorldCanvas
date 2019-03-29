@@ -1,0 +1,22 @@
+{
+  "name": "helloworldcanvas",
+  "version": "1.0.0",
+  "description": "default",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavelasco/HelloWorldCanvas.git"
+  },
+  "author": "Lorence Velasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lavelasco/HelloWorldCanvas/issues"
+  },
+  "homepage": "https://github.com/lavelasco/HelloWorldCanvas#readme",
+  "dependencies": {
+    "pdf-to-text": "0.0.7"
+  }
+}
